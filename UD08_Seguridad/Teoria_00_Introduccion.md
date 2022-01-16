@@ -18,10 +18,10 @@ Los datos que guardamos en nuestros sistemas son sin duda el activo más valioso
 puede ser reemplazado o reinstalado sin demasiados problemas. Sin embargo la perdida de datos o robo de los mismos es una _catástrofe_ que debemos evitar y gran parte de nuestro trabajo como administradores es asegurarnos de que no ocurra, 
 y en caso de que ocurra, que seamos capaces de recuperarnos ante el desastre.
 
-En esta unidad veremos algunos de los mecanismos que podremos utilizar para esto:
+Algunos de los mecanismos que podremos utilizar para alcanzar estos objetivos pueden ser
 
 * Copias de seguridad
 * RAIDs
 * Cuotas de disco
 
-Una correcta planificación y uso de estas herramientas nos permitirá estar preparados ante los posibles desastres.
+Una correcta planificación y uso de estas herramientas puede permitir estar preparados ante los posibles desastres.
