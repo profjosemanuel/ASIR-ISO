@@ -60,6 +60,8 @@ En esta configuración los datos se escriben en _paralelo_ pero a la velocidad d
 También conocido como volumen reflejado. Los datos se escriben en ambos discos obteniendo una mejora en el tiempo de lectura (ya que podemos leer de ambos a la vez) pero no de la escritura, ya que deberemos escribir los datos en ambos discos.
 
 Si uno de los discos falla, el sistema avisa, pero podemos seguir trabajando con los datos. Un RAID 1 no es una copia de seguridad, pero si mejora el UPTIME de los servicios, ya que nos permite trabajar con datos durante más tiempo.
+
+
 Esto quiere decir que si falla un disco en un servidor web apache por ejemplo podemos esperar bastante tiempo a apagar el servidor. El servicio web se puede seguir dando hasta que se encuentre el momento oportuno para apagar el servidor y cambiar el disco. 
 
 ![RAID 1](CreacionDeRaidyVolumenes/Raid1.png)
