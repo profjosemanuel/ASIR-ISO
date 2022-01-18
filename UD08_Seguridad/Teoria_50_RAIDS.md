@@ -72,7 +72,7 @@ Esto quiere decir que si falla un disco en un servidor web apache por ejemplo po
 Un RAID 5 (también llamado distribuido con paridad) es una división de datos a nivel de bloques que distribuye la información de paridad entre todos los discos miembros del conjunto. El RAID 5 ha logrado popularidad gracias a su bajo coste de redundancia. Generalmente, el RAID 5 se implementa con soporte hardware para el cálculo de la paridad. RAID 5 necesitará un mínimo de 3 discos para ser implementado. Guardando la paridad de ambos discos en el tercero. Esta paridad se calcula de muchas maneras, pero una de las más famosas es la XOR o disyunción exclusiva:
 
 
-[ https://es.wikipedia.org/wiki/Disyunci%C3%B3n_exclusiva ] (https://es.wikipedia.org/wiki/Disyunci%C3%B3n_exclusiva)
+https://es.wikipedia.org/wiki/Disyunci%C3%B3n_exclusiva
 
 ![RAID 5](CreacionDeRaidyVolumenes/Raid5.png)
 \ 
