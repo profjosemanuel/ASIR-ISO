@@ -54,9 +54,11 @@ Un RAID 1+0, a veces llamado RAID 10, es parecido a un RAID 0+1 pero con los niv
 ![RAID 1+0](CreacionDeRaidyVolumenes/Raid10.png)
 \ 
 
+¿Ya que tenemos cuatro discos porqué no usamos raid 5?
 El problema de esta configuración es que si un disco falla y no se cambia rápidamente, el restante de la división pasa a ser el único punto de fallo y si se pierde no serán recuperables los datos.
 
-Esta configuración es habitual el bases de datos de alto rendimiento, ya que no incluye coste de cálculo de CRC (paridad).
+Esta configuración es habitual el bases de datos de alto rendimiento, ya que no incluye coste de cálculo de CRC (paridad). 
+
 
 ### Otros tipos de RAID
 
