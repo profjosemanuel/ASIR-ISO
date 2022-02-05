@@ -1,6 +1,6 @@
 ---
 title: UD08 - Seguridad
-author: Angel Berlanas Vicente
+author: fork de José Manuel Alvarez a partir del material de Angel Aberlanas Vicente
 header-includes: |
 lang: es-ES
 keywords: [ASIR, ISO, Seguridad]
