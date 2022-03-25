@@ -45,7 +45,7 @@ Sin embargo, agregar un segundo servidor puede complicar las cosas. El problema 
 
 Supongamos el siguiente ejemplo:
 
->Una pequeña empresa cuenta con un servidor llamado DeathStar que tiene una serie de impresoras que permite a los miembros del grupo de `Administración` imprimir a color, mientras que ofrece una carpeta compartida via `SAMBA` a los miembros del grupo de `Economia`.
+>Una pequeña empresa cuenta con un servidor llamado ServidordeImpresoras que tiene una serie de impresoras que permite a los miembros del grupo de `Departamento_Administración` imprimir a color, mientras que ofrece una carpeta compartida via `SAMBA` a los miembros del grupo de `Departamento_Economia`.
 
 Si ahora quisieramos añadir un nuevo servidor para aligerar la carga del Sistema. Nos encontrariamos con los siguientes problemas:
 
