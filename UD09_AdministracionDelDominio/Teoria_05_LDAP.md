@@ -14,6 +14,10 @@ Un directorio no es más que una lista que recoge todos los recursos que están 
 
 `x500` es el servicio de directorio más famoso, y `LDAP` es el estándar que está basado en `x500`, que está preparado para trabajar sobre TCP/IP.
 
+https://es.wikipedia.org/wiki/X.500
+
+https://en.wikipedia.org/wiki/X.500
+
 Para los usuarios el concepto de directorio es cómodo, ellos se conectan a la red y pueden listar los recursos disponibles sin importar donde se encuentran.
 
 # LDAP
