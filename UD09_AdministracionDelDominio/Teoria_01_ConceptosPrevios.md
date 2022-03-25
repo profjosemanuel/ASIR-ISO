@@ -1,6 +1,6 @@
 ---
 title: UD09 - Administración del dominio
-author: Angel Berlanas Vicente
+author: fork de José Manuel Alvarez del material de Angel Berlanas Vicente
 header-includes: |
 lang: es-ES
 keywords: [ASIR, ISO, Dominios]
@@ -12,13 +12,13 @@ Ya hemos visto en temas anteriores como gestionar un sistema operativo cliente, 
 
 Windows Server es un sistema operativo servidor, preparado para gestionar una red de ordenadores mediante un sistema de dominios y un directorio activo que permite una administración centralizada.
 
-Durante el tema veremos muchos conceptos nuevos, pero conviene repasar conceptos y ver como son alterados en el mundo de los servidores de directorio activo.
+Durante las siguientes unidades o los siguientes temas veremos muchos conceptos nuevos, pero conviene repasar conceptos y ver como son alterados en el mundo de los servidores de directorio activo.
 
 Las redes a las que pertenecen los sistemas informáticos son cada vez más complejas y necesitamos de herramientas que nos permitan realizar administración de manera centralizada.
 
 Sin embargo, aunque lo más cómodo para los administradores es que todo estuviera centralizado, cada vez más los servidores se encuentran en máquinas diferentes, con sistemas operativos y recursos diversos. Y no podemos pretender que sean los usuarios los que recuerden _donde_ y _qué_ hay en cada uno de los nodos o servidores de nuestra red.
 
-Este tipo de redes son muy complicadas (si no imposibles) de administrar mediante grupos de trabajo.
+Este tipo de redes son muy complicadas (si no imposibles) de administrar mediante los grupos de trabajo habituales de un equipo de windows home o professional.
 
 Para poder administrar este tipo de redes contaremos con una serie de herramientas como los dominios y las relaciones de confianza que nos permiten realizar una administración de los recursos.
 
