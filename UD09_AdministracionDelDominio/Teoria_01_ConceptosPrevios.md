@@ -57,7 +57,7 @@ Este modelo puede ser útil en empresas pequeñas, o donde los requisitos del si
 
 ## Grupos de Trabajo
 
-Los **Grupos de Trabajo** son más informales y estan administrados por los usuarios que comparten sus propios recursos locales de cada sistema y no cuentan con ningún servidor.
+Los **Grupos de Trabajo** son más informales y estan administrados por los usuarios de los propios equipos que comparten sus propios recursos locales de cada sistema y no cuentan con ningún servidor. Por ejemplo un usuario de un equipo windows 10 home o professional puede compartir una carpeta o una impresora que tenga conectada.
 
 Este tipo de redes se conocen como redes _peer to peer_, entre pares o entre iguales.
 
