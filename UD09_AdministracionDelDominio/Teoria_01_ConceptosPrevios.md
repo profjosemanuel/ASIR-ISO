@@ -37,7 +37,7 @@ Los servicios individuales es el nombre que le vamos a dar a las pequeñas redes
  * Impresora
  * Servicios de carpetas compartidas
   
-Todo esto lo tenemos configurado en un único servidor central. Los usuarios **NO** comparten nada desde sus propios equipos y no hay nada en la red que no esté _organizado_ desde el servidor central.
+Todo esto lo tenemos configurado en un único servidor central. Los usuarios **NO** comparten **NADA** desde sus propios equipos y no hay nada en la red que no esté _organizado_ desde el servidor central.
 
 Con este sistema no se requiere un sofisticado servicio de administración de recursos, dado que todos los recursos que se comparten están conectados directamente al servidor.
 
