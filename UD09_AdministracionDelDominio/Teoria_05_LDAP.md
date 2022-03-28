@@ -24,7 +24,7 @@ Para los usuarios el concepto de directorio es cómodo, ellos se conectan a la r
 
 `LDAP` (_Lightweight Directory Access Protocol_, Protocolo Ligero de Acceso a Directorios) es un protocolo que permite el acceso a un servicio de directorio ordenado y distribuido para buscar diversa información en un entorno de red. 
 
-`LDAP` se considera muchas veces como una base de datos a la que pueden realizarse consultas, aunque en realidad no es una base de datos como tal. Se encuentra especialmente optimizado para operaciones de lectura.
+`LDAP`  a diferencia de una base de datos se encuentra especialmente optimizado para operaciones de lectura. No estaría optimizado para lectura y también para escritura como una base de datos.
 
 Después de ver todo esto , podemos definir que :
 
