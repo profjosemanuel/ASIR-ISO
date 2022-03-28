@@ -18,7 +18,7 @@ La administración centralizada en los sistemas informáticos facilita las tarea
 mismos. Eliminar duplicidad y facilitar la labor del administrador de sistemas es uno de los objetivos de los 
 dominios.
 
-Conoceremos los diferentes requisitos y posibles modelos de dominios que se pueden implementar, así como 
+Hay los diferentes requisitos y posibles modelos de dominios que se pueden implementar, así como 
 las funcionalidades extra que nos proporcionan.
 
-Aprenderemos a configurar un dominio y a añadir usuarios y grupos al mismo.
+Entre otras taareas existen las de configurar un dominio por un lado y la de añadir usuarios y grupos al mismo.
