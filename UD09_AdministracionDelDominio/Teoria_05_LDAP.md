@@ -1,6 +1,6 @@
 ---
 title: UD09 - Administración del dominio
-author: Angel Berlanas Vicente
+author: modificación de José Manuel Alvarez a partir del material de Angel Berlanas Vicente
 header-includes: |
 lang: es-ES
 keywords: [ASIR, ISO, Dominios]
@@ -82,7 +82,7 @@ se lee desde su entrada individual, recursivamente a través del árbol, hasta e
 
 En los ejemplos que veremos trabajaremos con un dominio _base_ que denominaremos **iso.com**. 
 
-Esta será nuestra raiz, de la que colgaremos las diferntes estructuras, unidades organizativas, utilizando una estructura jerárquica.
+Esta será nuestra raiz, de la que colgaremos las diferentes estructuras, unidades organizativas, utilizando una estructura jerárquica.
 
 * _dc=iso, dc=com_
 
