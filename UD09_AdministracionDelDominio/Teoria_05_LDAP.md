@@ -38,7 +38,7 @@ Después de ver todo esto , podemos definir que :
 * Documentos
 * Grupos de Personas (_Groups_)
 
-Normalment almacenamos la información de autenticación (_usuario y contraseña_) y es utilizado para autenticarse aunque es posible almacenar otra información.
+Normalmente almacenamos la información de autenticación (_usuario y contraseña_) y es utilizado para autenticarse aunque es posible almacenar otra información.
 
 Existen diversas implementaciones y aplicaciones reales del protocolo LDAP como pueden ser:
 
