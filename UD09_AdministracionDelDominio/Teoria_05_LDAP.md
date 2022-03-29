@@ -126,7 +126,7 @@ A lo largo de la unidad veremos como crear estas estructuras en los diferentes L
 ![OpenLDAP](OpenLDAP/Slapd31.png)
 \
 
-Esta captura ha sido obtenida tras la ejecución del comando siguiente en la máquina en la que realizaremos la práctica.
+Esta captura ha sido obtenida tras la ejecución del comando siguiente en la máquina en la que realizaremos.
 
 `ldapsearch -x -h localhost -p 389 -b "dc=valencia,dc=iso,dc=com"`
 
