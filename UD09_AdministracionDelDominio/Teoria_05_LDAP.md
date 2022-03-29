@@ -64,12 +64,12 @@ a causa de ese estatus como estandard de Internet.
 
 Un servidor LDAP puede ser cualquiera de un numero de los servidores de directorio LDAP de código abierto o comercial.
 
-La mayoría de los servidores LDAP son simples de instalar, fácilmente mantenibles, y fácilmente optimizables. Tal y como veremos en las prácticas.
+La mayoría de los servidores LDAP son simples de instalar, fácilmente mantenibles, y fácilmente optimizables.
 
 Los servidores LDAP pueden replicar tanto algunos de sus datos como todos a través de métodos de envío o recepción,
-lo que permite enviar datos a oficinas remotas, incrementar tu seguridad y demás.
+lo que permite enviar datos a oficinas remotas, incrementar su seguridad y demás.
 
-La tecnología de replicación está incorporada y es fácil de configurar, pero esto se verá en otros módulos.
+La tecnología de replicación está incorporada y es fácil de configurar.
 
 LDAP permite delegar con seguridad la lectura y modificación basada en autorizaciones según tus necesidades utilizando ACLs.
 
