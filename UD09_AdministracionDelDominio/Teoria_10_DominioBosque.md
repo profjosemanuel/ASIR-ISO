@@ -20,7 +20,6 @@ Para que esto funcione de manera correcta necesitamos varios servicios funcionan
 
 Deberemos configurar toda esta infraestructura para el correcto funcionamiento de un dominio.
 
-Veremos en las prácticas cómo se configuran, a lo largo de esta unidad y la siguiente.
 
 Haciendo un breve resumen de los pasos necesarios para configurar un servicio de ldap podemos citar los siguientes:
 
