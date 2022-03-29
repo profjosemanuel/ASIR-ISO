@@ -53,8 +53,7 @@ instalar en multitud de sistemas operativos y que cuenta con mucha aceptación.
 
 ## Ventajas de LDAP
 
-Tal vez la mayor ventaja de LDAP es que permite acceder al directorio LDAP desde casi cualquier dispositivo, y desde muchas aplicaciones para 
-empresa que cuenta con _bindings para LDAP_. 
+Tal vez la mayor ventaja de LDAP es que permite acceder al directorio LDAP desde casi cualquier dispositivo, y desde muchas aplicaciones
 
 Es también factible personalizar las aplicaciones internas de una empresa para añadirles soporte LDAP.
 
