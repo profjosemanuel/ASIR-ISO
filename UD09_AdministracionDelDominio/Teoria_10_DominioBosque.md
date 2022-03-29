@@ -8,7 +8,7 @@ keywords: [ASIR, ISO, Dominios]
 
 # Dominios
 
-Un dominio es el conjunto de computadoras conectadas en una red informática que confían a uno de los equipos de dicha red, la administración de los usuarios y los privilegios que cada uno de los usuarios tiene en dicha red.
+Un dominio se puede entender como el conjunto de computadoras conectadas en una red informática que confían a uno de los equipos de dicha red, la administración de los usuarios y los privilegios que cada uno de los usuarios tiene en dicha red.
 
 Para que esto funcione de manera correcta necesitamos varios servicios funcionando de manera _coordinada_. 
 
