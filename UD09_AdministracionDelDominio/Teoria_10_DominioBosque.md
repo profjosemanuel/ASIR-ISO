@@ -1,6 +1,6 @@
 ---
 title: UD09 - Administración del dominio
-author: Angel Berlanas Vicente
+author: modificación de José Manuel Alvarez a partir del material de Angel Berlanas Vicente
 header-includes: |
 lang: es-ES
 keywords: [ASIR, ISO, Dominios]
