@@ -15,14 +15,14 @@ Para que esto funcione de manera correcta necesitamos varios servicios funcionan
 * Necesitaremos un servicio de _directorio_, donde almacenaremos información acerca de los usuarios, grupos, permisos, etc. de nuestro dominio (**LDAP**). 
 * Un servicio de resolución de nombres de máquinas, usuarios, que nos permita trabajar mediante nomenclatura _de Internet_. (**DNS**).
 * Un servicio validación de usuarios de manera remota, que nos asegure de que los usuarios son _quienes dicen ser_. (**Kerberos**).
-* Un sistema de compartición de recursos en red, en las prácticas veremos **SMB** (Server Message Block), pero podríamos utilizar otro.
+* Un sistema de compartición de recursos en red, como podría ser **SMB** (Server Message Block), pero podríamos utilizar otro.
 * Un sistema de sincronización de la hora, que nos asegure que todas las máquinas de nuestro dominio están en la misma hora (requisito muy importante para Kerberos).(**NTP**).
 
 Deberemos configurar toda esta infraestructura para el correcto funcionamiento de un dominio.
 
 Veremos en las prácticas cómo se configuran, a lo largo de esta unidad y la siguiente.
 
-Haciendo un breve resumen de los pasos que veremos:
+Haciendo un breve resumen de los pasos necesarios para configurar un servicio de ldap podemos citar los siguientes:
 
 Estableceremos un ordenador como controlador del dominio, donde crearemos cuentas _globales_ que podrán ser utilizadas en todos los ordenadores que configuremos en la red.
 
@@ -30,7 +30,7 @@ Las cuentas locales de los ordenadores seguirán en cada una de las máquinas.
 
 Debemos configurar tanto el ordenador servidor como los clientes. Uno para que sea el controlador y los clientes para que tenga _confianza_ y sean dominados por el servidor.
 
-Los servidores, dentro del dominio, anuncian sus servicios a los usuarios. Los usuarios obtienen acceso sin importar que ordenador del dominio está _ofreciendo_ el servicio.
+De alguna manera los servidores, dentro del dominio, anuncian sus servicios a los usuarios. Los usuarios obtienen acceso sin importar que ordenador del dominio está _ofreciendo_ el servicio.
 
 Si la red se vuelve demasiado amplia y aparecen varios dominios, podemos establecer relaciones de confianza (_trust_) entre ellos. De tal manera que un usuario solo requerirá iniciar sesión en uno de ellos y los demás dominios confiarán en el dominio de conexión.
 
