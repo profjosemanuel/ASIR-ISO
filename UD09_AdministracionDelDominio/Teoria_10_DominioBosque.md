@@ -116,4 +116,4 @@ Con todos estos datos establecidos, en esa base de datos remota a la que accedem
 
 De esta manera tenemos una gestión _centralizada_ de los usuarios en nuestra red.
 
-Veremos ahora los conceptos de Dominio, Bosque y la implementación de esos conceptos en sistemas Microsoft.
+
