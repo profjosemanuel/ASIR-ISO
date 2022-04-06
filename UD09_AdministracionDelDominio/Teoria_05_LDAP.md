@@ -32,6 +32,9 @@ Después de ver todo esto , podemos definir que :
 
 `LDAP` se apoya en el DNS (Nombres de Dominio) para estructurar y organizar los diferentes recursos:
 
+https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+
+
 * Personas
 * Unidades Organizativas (_OU_)
 * Impresoras (_Printers_)
