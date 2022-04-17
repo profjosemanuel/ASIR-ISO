@@ -67,6 +67,7 @@ En ASO se continúan trabajando aspectos relacionados con la administración del
 Vemos como el dominio raíz tiene dos dominios hijos (Valencia y Castellón), y uno de ellos tiene a su vez dos hijos más (Utiel y Torrent). Al hablar de árboles, podemos decir que el dominio raíz tiene dos ramas, y una de esas ramas tiene a su vez dos ramas más. Es posible crear una estructura que cuente con más de un árbol, estas estructuras de carácter superior al árbol se conocen como bosque.
 
 El modelo de bosque permite a las organizaciones que no forman un espacio de nombres contiguo, o jerarquizado, mantener la continuidad de toda la organización en su estructura de dominios agregados.
+Por ejemplo si una empresa tiene una organización en forma de dominio y de golpe se fusiona con otra empresa que tiene otra organización en forma de dominio se podrían añadir los dos dominios formando una estructura de unions de dos dominios distintos. A esta estructura se le podría llamar bosque.
 
 ## Cómo organizar los datos
 
