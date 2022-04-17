@@ -55,7 +55,7 @@ Podemos agrupar varios dominios formando estructuras de dominios, donde cada uno
 
 Esta estructura de dominios anidados se conoce como **árbol**.
 
-# Bosque
+# Arbol
 
 Veremos diferentes dominios, en Windows veremos el dominio directo de _iso.com_, mientras que en GNU/LinuX veremos el subdominio de _valencia.iso.com_. 
 Las relaciones de confianza y la administración avanzada del dominio se verán en mayor profundidad en el módulo de ASO (Administración de Sistemas Operativos) perteneciente al segundo curso del Ciclo Formativo.
