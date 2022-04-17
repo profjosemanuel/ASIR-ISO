@@ -77,6 +77,10 @@ LDAP permite delegar con seguridad la lectura y modificación basada en autoriza
 
 LDAP es particularmente utilizable para almacenar información que se desee leer desde muchas localizaciones, pero que no sea actualizada frecuentemente.
 
+# Dominios
+
+Un dominio se puede entender como el conjunto de computadoras conectadas en una red informática que confían a uno de los equipos de dicha red, la administración de los usuarios y los privilegios que cada uno de los usuarios tiene en dicha red.
+
 ## Árbol de directorio LDAP
 
 Los servidores de directorio LDAP almacenan sus datos jerárquicamente. Al igual que los árboles DNS descendientes o directorios de ficheros UNIX, 
@@ -90,5 +94,27 @@ Esta será nuestra raiz, de la que colgaremos las diferentes estructuras, unidad
 * _dc=iso, dc=com_
 
 >Será el DN (_Distinguished Name_) base que utilizaremos.
+
+Para que esto funcione de manera correcta necesitamos varios servicios funcionando de manera _coordinada_. 
+
+* Necesitaremos un servicio de _directorio_, donde almacenaremos información acerca de los usuarios, grupos, permisos, etc. de nuestro dominio (**LDAP**). 
+* Un servicio de resolución de nombres de máquinas, usuarios, que nos permita trabajar mediante nomenclatura _de Internet_. (**DNS**).
+* Un servicio validación de usuarios de manera remota, que nos asegure de que los usuarios son _quienes dicen ser_. (**Kerberos**).
+* Un sistema de compartición de recursos en red, como podría ser **SMB** (Server Message Block), pero podríamos utilizar otro.
+* Un sistema de sincronización de la hora, que nos asegure que todas las máquinas de nuestro dominio están en la misma hora (requisito muy importante para Kerberos).(**NTP**).
+
+Deberemos configurar toda esta infraestructura para el correcto funcionamiento de un dominio.
+
+Haciendo un breve resumen de los pasos necesarios para configurar un servicio de ldap podemos citar los siguientes:
+
+Estableceremos un ordenador como controlador del dominio, donde crearemos cuentas _globales_ que podrán ser utilizadas en todos los ordenadores que configuremos en la red.
+
+Las cuentas locales de los ordenadores seguirán en cada una de las máquinas.
+
+Debemos configurar tanto el ordenador servidor como los clientes. Uno para que sea el controlador y los clientes para que tenga _confianza_ y sean dominados por el servidor.
+
+De alguna manera los servidores, dentro del dominio, anuncian sus servicios a los usuarios. Los usuarios obtienen acceso sin importar que ordenador del dominio está _ofreciendo_ el servicio.
+
+Si la red se vuelve demasiado amplia y aparecen varios dominios, podemos establecer relaciones de confianza (_trust_) entre ellos. De tal manera que un usuario solo requerirá iniciar sesión en uno de ellos y los demás dominios confiarán en el dominio de conexión.
 
 
