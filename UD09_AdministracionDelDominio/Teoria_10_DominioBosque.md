@@ -57,7 +57,7 @@ Esta estructura de dominios anidados se conoce como **árbol**.
 
 # Bosque
 
-A lo largo de las prácticas trabajaremos con diferentes dominios, en Windows veremos el dominio directo de _iso.com_, mientras que en GNU/LinuX veremos el subdominio de _valencia.iso.com_. 
+Veremos diferentes dominios, en Windows veremos el dominio directo de _iso.com_, mientras que en GNU/LinuX veremos el subdominio de _valencia.iso.com_. 
 Las relaciones de confianza y la administración avanzada del dominio se verán en mayor profundidad en el módulo de ASO (Administración de Sistemas Operativos) perteneciente al segundo curso del Ciclo Formativo.
 En ASO se continúan trabajando aspectos relacionados con la administración del dominio.
 
