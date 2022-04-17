@@ -20,7 +20,6 @@ Para que esto funcione de manera correcta necesitamos varios servicios funcionan
 
 Deberemos configurar toda esta infraestructura para el correcto funcionamiento de un dominio.
 
-
 Haciendo un breve resumen de los pasos necesarios para configurar un servicio de ldap podemos citar los siguientes:
 
 Estableceremos un ordenador como controlador del dominio, donde crearemos cuentas _globales_ que podrán ser utilizadas en todos los ordenadores que configuremos en la red.
@@ -32,6 +31,21 @@ Debemos configurar tanto el ordenador servidor como los clientes. Uno para que s
 De alguna manera los servidores, dentro del dominio, anuncian sus servicios a los usuarios. Los usuarios obtienen acceso sin importar que ordenador del dominio está _ofreciendo_ el servicio.
 
 Si la red se vuelve demasiado amplia y aparecen varios dominios, podemos establecer relaciones de confianza (_trust_) entre ellos. De tal manera que un usuario solo requerirá iniciar sesión en uno de ellos y los demás dominios confiarán en el dominio de conexión.
+
+## Árbol de directorio LDAP
+
+Los servidores de directorio LDAP almacenan sus datos jerárquicamente. Al igual que los árboles DNS descendientes o directorios de ficheros UNIX, 
+así es la estructura de directorio LDAP. Como con los nombres de host en DNS, un registro Nombre Distinguido (Distinguished Name en ingles, DN en corto) de un directorio LDAP 
+se lee desde su entrada individual, recursivamente a través del árbol, hasta el nivel más alto.
+
+En los ejemplos que veremos trabajaremos con un dominio _base_ que denominaremos **iso.com**. 
+
+Esta será nuestra raiz, de la que colgaremos las diferentes estructuras, unidades organizativas, utilizando una estructura jerárquica.
+
+* _dc=iso, dc=com_
+
+>Será el DN (_Distinguished Name_) base que utilizaremos.
+
 
 ## Estructura
 
