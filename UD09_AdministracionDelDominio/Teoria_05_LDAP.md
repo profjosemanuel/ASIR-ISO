@@ -79,7 +79,7 @@ LDAP es particularmente utilizable para almacenar información que se desee leer
 
 # Dominios
 
-Un dominio se puede entender como el conjunto de computadoras conectadas en una red informática que confían a uno de los equipos de dicha red, la administración de los usuarios y los privilegios que cada uno de los usuarios tiene en dicha red.
+Un dominio se puede entender como el conjunto de computadoras conectadas en una red informática que confían a uno de los equipos de dicha red, junto con la administración de los usuarios y los privilegios que cada uno de los usuarios tiene en dicha red.
 
 Los servidores de directorio LDAP almacenan sus datos jerárquicamente. Al igual que los árboles DNS descendientes o directorios de ficheros UNIX, 
 así es la estructura de directorio LDAP. Como con los nombres de host en DNS, un registro Nombre Distinguido (Distinguished Name en ingles, DN en corto) de un directorio LDAP 
