@@ -64,7 +64,7 @@ El protocolo LDAP es utilizable por distintas plataformas y basado en estándare
 preocuparse por el tipo de servidor en que se hospeda el directorio. De hecho, LDAP está encontrando mucha más amplia aceptación 
 a causa de ese estatus como estandard de Internet. 
 
-Un servidor LDAP puede ser cualquiera de un numero de los servidores de directorio LDAP de código abierto o comercial.
+Un servidor LDAP puede ser cualquiera de uno o un grupo de servidores de directorio LDAP tanto de  código abierto o comercial.
 
 La mayoría de los servidores LDAP son simples de instalar, fácilmente mantenibles, y fácilmente optimizables.
 
