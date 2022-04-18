@@ -51,7 +51,7 @@ Existen diversas implementaciones y aplicaciones reales del protocolo LDAP como 
 * OpenLDAP
 * Red Hat DS
 
-La implementaciones que vamos a estudiar en esta Unidad son la de _Active Directory_, utilizada por Microsoft, y la de _OpenLDAP_ que podremos
+La implementaciones que vamos a estudiar son la de _Active Directory_, utilizada por Microsoft, y la de _OpenLDAP_ que podremos
 instalar en multitud de sistemas operativos y que cuenta con mucha aceptación.
 
 ## Ventajas de LDAP
@@ -61,7 +61,7 @@ Tal vez la mayor ventaja de LDAP es que permite acceder al directorio LDAP desde
 Es también factible personalizar las aplicaciones internas de una empresa para añadirles soporte LDAP.
 
 El protocolo LDAP es utilizable por distintas plataformas y basado en estándares, de ese modo las aplicaciones no necesitan 
-preocuparse por el tipo de servidor en que se hospeda el directorio. De hecho, LDAP esta encontrando mucha más amplia aceptación 
+preocuparse por el tipo de servidor en que se hospeda el directorio. De hecho, LDAP está encontrando mucha más amplia aceptación 
 a causa de ese estatus como estandard de Internet. 
 
 Un servidor LDAP puede ser cualquiera de un numero de los servidores de directorio LDAP de código abierto o comercial.
