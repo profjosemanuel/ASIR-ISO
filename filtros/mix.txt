@@ -1,5 +1,5 @@
-Abc                                                                                                                                                    
-BALL                                                                                                                                                   
-abc                                                                                                                                                    
-apple                                                                                                                                                  
+abc
+apple
+BALL
+Abc
 bat
