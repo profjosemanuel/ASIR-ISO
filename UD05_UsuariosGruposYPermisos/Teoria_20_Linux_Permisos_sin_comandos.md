@@ -1,6 +1,6 @@
 ---
 title: UD05 - Usuarios, Grupos y Permisos
-author: Angel Berlanas Vicente
+author: fork modificado por José Manuel Alvarez a partir del material de Angel Berlanas Vicente
 header-includes: |
 lang: es-ES
 keywords: [ASIR, ISO, Usuarios, Grupos, Permisos]
@@ -119,35 +119,7 @@ total 8
 
 Para cambiar los permisos de un archivo o una carpeta es necesario disponer del permiso de escritura (w) sobre dicho archivo o carpeta. Para hacerlo, se utiliza el comando chmod. La sintaxis del comando chmod es la siguiente:
 
-`chmod [opciones] permiso nombre_archivo_o_carpeta`
 
-Los permisos se pueden representar de dos formas. La primera es mediante las iniciales de a quién va dirigido el permiso (usuario=u, grupo=g, resto=o (other)), seguido de un signo *+* si se quiere añadir permiso o un signo *-* si se quiere quitar y seguido del tipo de permiso (lectura=r, escritura=w y ejecución=x).
-
-Ejemplos:
-
-Dar permiso de escritura al usuario propietario sobre el archivo 'examen.txt'
-
-`chmod u+w examen.txt`
-
-Quitar permiso de escritura al resto de usuarios sobre el archivo 'examen.txt'
-
-`chmod o-w examen.txt`
-
-Dar permiso de ejecución al grupo propietario sobre el archivo `/usr/bin/games/monkey_island`
-
-`chmod g+x /usr/bin/games/monkey_island`
-
-Dar permiso de lectura al grupo propietario sobre el archivo 'examen.txt'
-
-`chmod g+r examen.txt`
-
-Se pueden poner varios permisos juntos separados por comas
-
-`chmod u+w,g-r,o-r examen.txt`
-
-Se pueden poner varios usuarios juntos
-
-`chmod ug+w examen.txt`
 
 La segunda forma de representar los permisos es mediante un código numérico cuya transformación al binario representaría la activación o desactivación de los permisos. El código numérico está compuesto por tres cifras entre 0 y 7. La primera de ellas representaría los permisos del usuario propietario, la segunda los del grupo propietario y la tercera los del resto de usuarios.
 
@@ -233,7 +205,7 @@ El problema de usar la máscara 002 es que cualquiera que pertenezca al grupo pr
 
 Para poder cambiar el usuario propietario y el grupo propietario de un archivo o carpeta se utiliza el comando `chown  (change owner)`. Para ello hay que disponer de permisos de escritura sobre el archivo o carpeta. La sintaxis del comando es:
 
-`chown nuevo_usuario[:nuevo_grupo] nombre_archivo`
+
 
 En el siguiente ejemplo vemos una secuencia de comandos en la que inicialmente comprobamos que el archivo `examen.txt` pertenece al usuario violin y al grupo cuerda. Posteriormente hacemos que pertenezca al usuario viola y luego hacemos que pertenezca al usuario violonchelo y al grupo instrumentos:
 
