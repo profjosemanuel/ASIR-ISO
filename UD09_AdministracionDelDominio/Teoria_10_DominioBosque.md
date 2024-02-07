@@ -38,7 +38,7 @@ Los servidores de directorio LDAP almacenan sus datos jerárquicamente. Al igual
 así es la estructura de directorio LDAP. Como con los nombres de host en DNS, un registro Nombre Distinguido (Distinguished Name en ingles, DN en corto) de un directorio LDAP 
 se lee desde su entrada individual, recursivamente a través del árbol, hasta el nivel más alto.
 
-En los ejemplos que veremos trabajaremos con un dominio _base_ que denominaremos **iso.com**. 
+En los ejemplo que vamo a ver trabajaremos con un dominio _base_ que denominaremos **iso.com**. 
 
 Esta será nuestra raiz, de la que colgaremos las diferentes estructuras, unidades organizativas, utilizando una estructura jerárquica.
 
