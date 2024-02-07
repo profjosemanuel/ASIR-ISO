@@ -46,29 +46,6 @@ Esta será nuestra raiz, de la que colgaremos las diferentes estructuras, unidad
 
 >Será el DN (_Distinguished Name_) base que utilizaremos.
 
-
-## Estructura
-
-Cada dominio contiene una serie de máquinas clientes, unos recursos y al menos un servidor que domina a los equipos clientes, este servidor se conoce como Controlador de Dominio (_Domain Controler, DC_).
-
-Podemos agrupar varios dominios formando estructuras de dominios, donde cada uno de estos dominios cuenta con su propio controlador de dominio. Esta agrupación de dominios se realiza de forma anidada, al igual que hemos visto en la estructura de directorios. Cada dominio puede tener dominios padres y dominios hijos, y todos los dominios tienen un dominio padre menos el dominio raíz, que es el primero de todos.
-
-Esta estructura de dominios anidados se conoce como **árbol**.
-
-## Arbol
-
-Veremos diferentes dominios, en Windows veremos el dominio directo de _iso.com_, mientras que en GNU/LinuX veremos el subdominio de _valencia.iso.com_. 
-Las relaciones de confianza y la administración avanzada del dominio se verán en mayor profundidad en el módulo de ASO (Administración de Sistemas Operativos) perteneciente al segundo curso del Ciclo Formativo.
-En ASO se continúan trabajando aspectos relacionados con la administración del dominio.
-
-![Bosque](AD2016/ISO_AD_Arboles.png)
-\ 
-
-Vemos como el dominio raíz tiene dos dominios hijos (Valencia y Castellón), y uno de ellos tiene a su vez dos hijos más (Utiel y Torrent). Al hablar de árboles, podemos decir que el dominio raíz tiene dos ramas, y una de esas ramas tiene a su vez dos ramas más. Es posible crear una estructura que cuente con más de un árbol, estas estructuras de carácter superior al árbol se conocen como bosque.
-
-El modelo de bosque permite a las organizaciones que no forman un espacio de nombres contiguo, o jerarquizado, mantener la continuidad de toda la organización en su estructura de dominios agregados.
-Por ejemplo si una empresa tiene una organización en forma de dominio y de golpe se fusiona con otra empresa que tiene otra organización en forma de dominio se podrían añadir los dos dominios formando una estructura de unions de dos dominios distintos. A esta estructura se le podría llamar bosque.
-
 ## Cómo organizar los datos
 
 Debajo de tu base de directorio, crearemos contenedores que separen lógicamente los datos.
@@ -130,5 +107,28 @@ Vamos ahora a describir los atributos más importantes que definen a este usuari
 Con todos estos datos establecidos, en esa base de datos remota a la que accedemos mediante LDAP, podemos realizar operaciones de usuario (login, asignar permisos, etc) con los usuarios y grupos de LDAP como si de usuarios locales se tratase. 
 
 De esta manera tenemos una gestión _centralizada_ de los usuarios en nuestra red.
+## Estructura
+
+Cada dominio contiene una serie de máquinas clientes, unos recursos y al menos un servidor que domina a los equipos clientes, este servidor se conoce como Controlador de Dominio (_Domain Controler, DC_).
+
+Podemos agrupar varios dominios formando estructuras de dominios, donde cada uno de estos dominios cuenta con su propio controlador de dominio. Esta agrupación de dominios se realiza de forma anidada, al igual que hemos visto en la estructura de directorios. Cada dominio puede tener dominios padres y dominios hijos, y todos los dominios tienen un dominio padre menos el dominio raíz, que es el primero de todos.
+
+Esta estructura de dominios anidados se conoce como **árbol**.
+
+## Arbol
+
+Veremos diferentes dominios, en Windows veremos el dominio directo de _iso.com_, mientras que en GNU/LinuX veremos el subdominio de _valencia.iso.com_. 
+Las relaciones de confianza y la administración avanzada del dominio se verán en mayor profundidad en el módulo de ASO (Administración de Sistemas Operativos) perteneciente al segundo curso del Ciclo Formativo.
+En ASO se continúan trabajando aspectos relacionados con la administración del dominio.
+
+![Bosque](AD2016/ISO_AD_Arboles.png)
+\ 
+
+Vemos como el dominio raíz tiene dos dominios hijos (Valencia y Castellón), y uno de ellos tiene a su vez dos hijos más (Utiel y Torrent). Al hablar de árboles, podemos decir que el dominio raíz tiene dos ramas, y una de esas ramas tiene a su vez dos ramas más. Es posible crear una estructura que cuente con más de un árbol, estas estructuras de carácter superior al árbol se conocen como bosque.
+
+El modelo de bosque permite a las organizaciones que no forman un espacio de nombres contiguo, o jerarquizado, mantener la continuidad de toda la organización en su estructura de dominios agregados.
+Por ejemplo si una empresa tiene una organización en forma de dominio y de golpe se fusiona con otra empresa que tiene otra organización en forma de dominio se podrían añadir los dos dominios formando una estructura de unions de dos dominios distintos. A esta estructura se le podría llamar bosque.
+
+
 
 
