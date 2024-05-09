@@ -13,12 +13,14 @@ Los niveles RAID 1, 0+1 o 10, 5 y otros niveles permiten que un disco falle mec�
 
 Los niveles RAID 0, 5 y 6 usan variantes de división (stripping) de datos, lo que permite que varios discos atiendan simultáneamente las operaciones de lectura lineales, aumentando la tasa de transferencia sostenida. Las aplicaciones de escritorio que trabajan con archivos grandes, como la edición de vídeo e imágenes, se benefician de esta mejora. Las lecturas simultáneas también se ven beneficiadas por estructuras de RAID, ya que se pueden leer de varios discos a la vez.
 
+### Para proteger los datos hay que realizar más tareas(copias de seguridad, reforzar el sistema de archivo y el sistema operativo y las conexiones de red ante amenazas)
+
+Un conjunto RAID ofrece mayor rendimiento del sistema de archivos y mayor disponibilidad ante fallos de discos.
+Pero para proteger los datos hay que llevar a cabo otras acciones como copias de seguridad, reforzar el sistema de archivo y el sistema operativo y las conexiones de red ante amenazas y ataques.
+
 ## Lo que RAID NO puede hacer
 
-### RAID no protege los datos
-
-Un conjunto RAID tiene un sistema de archivos, lo que supone un punto único de fallo al ser vulnerable a una amplia variedad de riesgos aparte del fallo físico de disco, por lo que RAID no evita la pérdida de datos por estas causas. RAID no impedirá que un virus destruya los datos, que éstos se corrompan, que sufran la modificación o borrado accidental por parte del usuario ni que un fallo físico en otro componente del sistema afecten a los datos.
-  
+ 
 ### RAID no simplifica la recuperación de un desastre
 
 Cuando se trabaja con un solo disco, éste es accesible normalmente mediante un controlador ATA o SCSI incluido en la mayoría de los sistemas operativos. Sin embargo, las controladoras RAID necesitan controladores software específicos. Las herramientas de recuperación que trabajan con discos simples en controladoras genéricas necesitarán controladores especiales para acceder a los datos de los conjuntos RAID. Si estas herramientas no los soportan, los datos serán inaccesibles para ellas.
@@ -30,3 +32,5 @@ Esto resulta especialmente cierto en las configuraciones típicas de escritorio.
 ### RAID no facilita el traslado a un sistema nuevo
 
 Cuando se usa un solo disco, es relativamente fácil trasladar el disco a un sistema nuevo: basta con conectarlo, si cuenta con la misma interfaz. Con un RAID no es tan sencillo: si tenemos una controladora Hardware la BIOS RAID debe ser capaz de leer los _metadatos_ de los miembros del conjunto para reconocerlo adecuadamente y hacerlo disponible al sistema operativo. Esta limitación puede obviarse con el uso de RAID por software, que a su vez añaden otras diferentes (especialmente relacionadas con el rendimiento).
+
+
