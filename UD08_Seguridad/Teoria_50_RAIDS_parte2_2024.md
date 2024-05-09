@@ -37,14 +37,6 @@ Datos: 0001, 0111, 1111, 1110, 1011, 0000.
 
 De esta manera en caso de que se dañara cualquiera de los discos podríamos reconstruirlos a partir de los almacenados en los otros dos discos.
 
-### RAID 0+1
-
-Un RAID 0+1 (o 01) es un RAID usado para replicar y compartir datos entre varios discos. La diferencia entre un RAID 0+1 y un RAID 1+0 es la localización de cada nivel RAID dentro del conjunto final: un RAID 0+1 es un espejo de divisiones.
-
-![RAID 0+1](CreacionDeRaidyVolumenes/Raid0mas1.png)
-\ 
-
-Primero se crean dos  RAID 0 (dividiendo los datos en discos) y luego, sobre los anteriores, se crea un conjunto RAID 1 (realizando un espejo de los anteriores).
 
 ### RAID 1+0
 
