@@ -12,7 +12,7 @@ keywords: [ASIR, ISO, Seguridad]
 
 ## ¿Qué es un RAID?
 
-Un grupo/matriz redundante de discos independientes1​ (también, RAID, del inglés _redundant array of independent disks_) hace referencia a un sistema de almacenamiento de datos que utiliza múltiples unidades (discos duros o SSD), entre las cuales se distribuyen o replican los datos.
+Un grupo/matriz redundante de discos independientes1​ (también, RAID, del inglés _redundant array of independent disks_ o _redundant array of inexpensive disks_) hace referencia a un sistema de almacenamiento de datos que utiliza múltiples unidades (discos duros o SSD), entre las cuales se distribuyen o replican los datos.
 
 Dependiendo de su configuración (a la que suele llamarse nivel), los beneficios de un RAID respecto a un único disco son uno o varios de los siguientes: mayor integridad, tolerancia frente a fallos, tasa de transferencia y capacidad. En sus implementaciones originales, su ventaja clave era la habilidad de combinar varios dispositivos de bajo coste y tecnología más vieja en un conjunto que ofrecía mayor capacidad, fiabilidad, velocidad o una combinación de éstas que un solo dispositivo de última generación y coste más alto.
 
